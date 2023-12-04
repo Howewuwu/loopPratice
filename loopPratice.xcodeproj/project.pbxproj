@@ -9,21 +9,27 @@
 /* Begin PBXBuildFile section */
 		9C9B6ED52B148F0B00CF6794 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C9B6ED42B148F0B00CF6794 /* AppDelegate.swift */; };
 		9C9B6ED72B148F0B00CF6794 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C9B6ED62B148F0B00CF6794 /* SceneDelegate.swift */; };
-		9C9B6ED92B148F0B00CF6794 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C9B6ED82B148F0B00CF6794 /* ViewController.swift */; };
 		9C9B6EDC2B148F0B00CF6794 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C9B6EDA2B148F0B00CF6794 /* Main.storyboard */; };
 		9C9B6EDE2B148F0C00CF6794 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C9B6EDD2B148F0C00CF6794 /* Assets.xcassets */; };
 		9C9B6EE12B148F0C00CF6794 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C9B6EDF2B148F0C00CF6794 /* LaunchScreen.storyboard */; };
+		9C9B6EE92B14FCD000CF6794 /* MultiplicationTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C9B6EE82B14FCD000CF6794 /* MultiplicationTableViewController.swift */; };
+		9C9B6EED2B1593DF00CF6794 /* applerowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C9B6EEC2B1593DF00CF6794 /* applerowViewController.swift */; };
+		9CC964712B187617008CCBE5 /* arrayLoopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CC964702B187617008CCBE5 /* arrayLoopViewController.swift */; };
+		9CC964732B1A438E008CCBE5 /* chessBoardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CC964722B1A438E008CCBE5 /* chessBoardViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		9C9B6ED12B148F0B00CF6794 /* loopPratice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = loopPratice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C9B6ED42B148F0B00CF6794 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9C9B6ED62B148F0B00CF6794 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		9C9B6ED82B148F0B00CF6794 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		9C9B6EDB2B148F0B00CF6794 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9C9B6EDD2B148F0C00CF6794 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9C9B6EE02B148F0C00CF6794 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9C9B6EE22B148F0C00CF6794 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9C9B6EE82B14FCD000CF6794 /* MultiplicationTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiplicationTableViewController.swift; sourceTree = "<group>"; };
+		9C9B6EEC2B1593DF00CF6794 /* applerowViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = applerowViewController.swift; sourceTree = "<group>"; };
+		9CC964702B187617008CCBE5 /* arrayLoopViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = arrayLoopViewController.swift; sourceTree = "<group>"; };
+		9CC964722B1A438E008CCBE5 /* chessBoardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = chessBoardViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +64,11 @@
 			children = (
 				9C9B6ED42B148F0B00CF6794 /* AppDelegate.swift */,
 				9C9B6ED62B148F0B00CF6794 /* SceneDelegate.swift */,
-				9C9B6ED82B148F0B00CF6794 /* ViewController.swift */,
 				9C9B6EDA2B148F0B00CF6794 /* Main.storyboard */,
+				9CC964722B1A438E008CCBE5 /* chessBoardViewController.swift */,
+				9CC964702B187617008CCBE5 /* arrayLoopViewController.swift */,
+				9C9B6EEC2B1593DF00CF6794 /* applerowViewController.swift */,
+				9C9B6EE82B14FCD000CF6794 /* MultiplicationTableViewController.swift */,
 				9C9B6EDD2B148F0C00CF6794 /* Assets.xcassets */,
 				9C9B6EDF2B148F0C00CF6794 /* LaunchScreen.storyboard */,
 				9C9B6EE22B148F0C00CF6794 /* Info.plist */,
@@ -138,8 +147,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9C9B6ED92B148F0B00CF6794 /* ViewController.swift in Sources */,
+				9C9B6EED2B1593DF00CF6794 /* applerowViewController.swift in Sources */,
+				9CC964712B187617008CCBE5 /* arrayLoopViewController.swift in Sources */,
+				9C9B6EE92B14FCD000CF6794 /* MultiplicationTableViewController.swift in Sources */,
 				9C9B6ED52B148F0B00CF6794 /* AppDelegate.swift in Sources */,
+				9CC964732B1A438E008CCBE5 /* chessBoardViewController.swift in Sources */,
 				9C9B6ED72B148F0B00CF6794 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
